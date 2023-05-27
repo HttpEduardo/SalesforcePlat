@@ -2,7 +2,7 @@
 
 Este repositório é uma demonstrações de um recurso da plataforma Salesforce.
 
-Em <https://www.platformdemos.com> você pode
+Em <https://www.platformdemos.com> 
 
 - crie sua própria instância da demonstração em uma organização de rascunho gratuita
 
