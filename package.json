@@ -1,0 +1,32 @@
+{
+  "name": "data-mask",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sfdx shane:org:delete; ./orgInit.sh",
+    "publish": "sfdx shane:package2:version:bump -m -r; git add sfdx-project.json; git commit -m 'package version bump'; git push origin master",
+    "reset": "echo \"sfdx force:apex:execute -f scripts/dataWipe.cls && sfdx force:apex:execute -f scripts/init.cls\""
+  },
+  "nodemonConfig": {
+    "watch": [
+      "force-app"
+    ],
+    "exec": "sfdx force:source:push",
+    "ext": "cls,xml,json,js,trigger,cmp,css,design,svg,html",
+    "delay": "2500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshanemc/data-mask.git"
+  },
+  "author": "Shane McLaughlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mshanemc/data-mask/issues"
+  },
+  "homepage": "https://github.com/mshanemc/data-mask",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
