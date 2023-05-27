@@ -1,11 +1,13 @@
-# Data Mask
+# Sales
 
-This repo is part of a series of one-feature Salesforce platform demos.
+Este repositório é uma demonstrações de um recurso da plataforma Salesforce.
 
-From <https://www.platformdemos.com> you can
+Em <https://www.platformdemos.com> você pode
 
-- watch a video of this demo (3 min or less)
-- spin up your own instance of the demo in a free scratch org
-- find related Trailhead content
-- get hi-res screenshots
-# SalesforcePlat
+- crie sua própria instância da demonstração em uma organização de rascunho gratuita
+
+- encontre conteúdo relacionado ao Trailhead
+
+- obter capturas de tela de alta resolução
+
+#SalesforcePlat
